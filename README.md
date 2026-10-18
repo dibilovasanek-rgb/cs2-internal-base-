@@ -1,4 +1,5 @@
-<img width="1014" height="513" alt="image" src="https://github.com/user-attachments/assets/8151d5c3-b3a5-45be-ae95-8514ad404e7e" /># CS2 INTERNAL BASE
+<img width="1014" height="513" alt="image" src="https://github.com/user-attachments/assets/8151d5c3-b3a5-45be-ae95-8514ad404e7e" />
+# CS2 INTERNAL BASE
 
 Внутренний C++ проект под базу для Internal Чита Counter-Strike 2. Проект собирается как x64 DLL.
 
