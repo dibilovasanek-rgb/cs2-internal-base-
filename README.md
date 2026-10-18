@@ -1,4 +1,4 @@
-<img width="1014" height="513" alt="image" src="https://github.com/user-attachments/assets/8151d5c3-b3a5-45be-ae95-8514ad404e7e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f59ad514-960b-4733-a48c-9e3697385e3c" />
 
 ## CS2 INTERNAL BASE
 
@@ -76,8 +76,6 @@ msbuild .\cs2-project.sln /t:Rebuild `
 https://www.cs2-sdk.com/
 
 <img width="1014" height="513" alt="image" src="https://github.com/user-attachments/assets/f25882e7-b659-45a7-8721-8ebfc9ef087e" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f59ad514-960b-4733-a48c-9e3697385e3c" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1c22a2da-5c12-4791-94e5-0baa476ec7ab" />
 
