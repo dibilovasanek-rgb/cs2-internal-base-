@@ -217,7 +217,6 @@
     <ClCompile Include="features\visual\game_visuals\custom_sky.cpp" />
     <ClCompile Include="features\visual\game_visuals\model_changer.cpp" />
     <ClCompile Include="features\visual\game_visuals\world.cpp" />
-    <ClCompile Include="features\emotes\emotes.cpp" />
     <ClCompile Include="memory\memory.cpp" />
     <ClCompile Include="dependencies\minhook\buffer.c" />
     <ClCompile Include="dependencies\minhook\hde\hde32.c" />

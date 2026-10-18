@@ -22,7 +22,6 @@
 #include <chrono>
 #include "../../features/visual/game_visuals/custom_sky.h"
 #include "../../features/visual/game_visuals/model_changer.h"
-#include "../../features/emotes/emotes.h"
 #define CXOR(str) str
 
 bool s = false;
@@ -351,7 +350,7 @@ void tab_legitbot()
 
 void tab_visuals()
 {
-    const char* visuals_items[] = { "Enemy", "Team", "Local", "Emotes" };
+    const char* visuals_items[] = { "Enemy", "Team", "Local" };
     render_subtabs(visuals_items, &MENU::visuals_subtab, IM_ARRAYSIZE(visuals_items));
 
     ImGui::SetCursorPos(BeginChildPos);
@@ -471,11 +470,6 @@ void tab_visuals()
                 }
                 ImGui::EndChild();
             } break;
-            case 3: { // Emotes
-                widgets::child(ICON_FA_SLIDERS, CXOR("Emotes"));
-                emotes::draw_menu();
-                ImGui::EndChild();
-            } break;
             }
         }
         ImGui::EndGroup();
@@ -537,12 +531,6 @@ void tab_visuals()
                     }
 
                 }
-                ImGui::EndChild();
-            } break;
-            case 3: { // Emotes
-                widgets::child(ICON_FA_MUSIC, CXOR("Emote pack"));
-                ImGui::TextWrapped("Emotes use the existing render and frame lifecycle.");
-                ImGui::TextDisabled("No second DLL hooks are installed.");
                 ImGui::EndChild();
             } break;
             }

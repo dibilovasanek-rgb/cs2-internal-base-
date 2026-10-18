@@ -37,11 +37,9 @@
 #include "../../features/visual/game_visuals/bullet_trace.h"
 #include "../../features/visual/game_visuals/model_changer.h"
 #include "../../render/liquid_glass.h"
-#include "../../features/emotes/emotes.h"
 
 bool c_hook::init()
 {
-	emotes::initialize();
 	if (MH_Initialize() != MH_OK)
 	{
 		std::cout << "failed to MH_Initialize" << std::endl;
@@ -596,8 +594,6 @@ void __fastcall c_hook::hk_frame_stage_notify(void* source_to_client, int stage)
 		return og(source_to_client, stage);
 
 	og(source_to_client, stage);
-	if (stage == FRAME_SIMULATE_END)
-		emotes::frame();
 	try {
 		g_skins->frame_stage(stage);
 	}
@@ -713,7 +709,6 @@ void* __fastcall c_hook::level_shutdown(void* a1)
 {
 	static const auto og = g_memory->getOrig<decltype(&level_shutdown)>("hkLevelShutdown");
 	last_hook = "level_shutdown";
-	emotes::stop();
 
 	// reset global variables since it got discarded by the game
 	g_interface->m_globalVars = nullptr;
