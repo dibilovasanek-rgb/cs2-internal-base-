@@ -1,5 +1,7 @@
 # CS2 INTERNAL BASE
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f59ad514-960b-4733-a48c-9e3697385e3c" /> 
+
 An internal C++ project serving as a base for a Counter-Strike 2 internal cheat. The project is built as an x64 DLL.
 
 ## Structure
