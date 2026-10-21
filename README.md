@@ -76,3 +76,7 @@ Updates are required for every patch. Get patterns and offsets from:
 
 https://www.cs2-sdk.com/
 
+<img width="1014" height="513" alt="image" src="https://github.com/user-attachments/assets/f25882e7-b659-45a7-8721-8ebfc9ef087e" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1c22a2da-5c12-4791-94e5-0baa476ec7ab" />
+
